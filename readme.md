@@ -1,9 +1,8 @@
 # Vite Starter
 A Vite starting point for vanilla js projects. [Repo](https://github.com/kevinnewcombe/vite-starter)
 
-
 ## Generating HTML
-There's two ways of generating the HTML
+There's two ways of generating the HTML...
 
 ### Pug
 * Create a file at partials/index.pug
@@ -14,10 +13,9 @@ There's two ways of generating the HTML
     import pugPlugin from "vite-plugin-pug"
 
     const options = { pretty: true } 
-    const locals = { name: "My Pug" }
 
     export default defineConfig({
-      plugins: [pugPlugin(options, locals)],
+      plugins: [pugPlugin(options)],
     })
     ```
 
@@ -39,7 +37,7 @@ There's two ways of generating the HTML
     })
     ```
 
-### Scripts
+## Scripts
 * `npm install`
 * `npm run dev`
 * `npm run host`
