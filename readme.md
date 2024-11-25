@@ -6,7 +6,7 @@ There's two ways of generating the HTML...
 
 ### Pug
 * Create a file at partials/index.pug
-* Add the following to /index.html: <pug src="partials/index.pug" />`
+* Add the following to /index.html: `<pug src="partials/index.pug" />`
 * Replace the contents of vite.config.js with the following 
     ```
     import { defineConfig } from "vite"
