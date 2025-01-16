@@ -1,5 +1,5 @@
 # Vite Starter
-A Vite starting point for vanilla js projects. [Repo](https://github.com/kevinnewcombe/vite-starter)
+A Vite starting point for Codepen-sized vanilla js projects. [Repo](https://github.com/kevinnewcombe/vite-starter)
 
 ## Generating HTML
 There's two ways of generating the HTML.
