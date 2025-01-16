@@ -2,7 +2,7 @@
 A Vite starting point for vanilla js projects. [Repo](https://github.com/kevinnewcombe/vite-starter)
 
 ## Generating HTML
-There's two ways of generating the HTML...
+There's two ways of generating the HTML.
 
 ### Pug
 * Create a file at partials/index.pug
