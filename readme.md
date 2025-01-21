@@ -12,12 +12,10 @@ There's two ways of generating the HTML.
     import { defineConfig } from "vite"
     import pugPlugin from "vite-plugin-pug"
 
-    const options = { pretty: true } 
-
     export default defineConfig({
-      plugins: [pugPlugin(options)],
+      plugins: [pugPlugin({ pretty: true })]
     })
-    ```
+   ```
 
 ### HTML Partials
 * Create a file at partials/index.html
